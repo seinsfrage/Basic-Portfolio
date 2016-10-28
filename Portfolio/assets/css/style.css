@@ -117,48 +117,42 @@ form {
     padding: 15px 30px;
 }
 
-#portfolio {
-    width: 650px;
-    height: 580px;
-    background-color: white;
-    padding: 40px 50px 40px 70px;
+article {
+    background: #fff;
+    overflow: auto;
+    display: block;
+    width: 580px;
+    padding: 20px;
+    margin: 35px 100px 50px 0px;
     float:left;
 }
 
-div.img {
-    margin: 15px 30px;
-    border: none;
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #4aaaa5;
+}
+.image-grid {
     float: left;
-    width: 125px; 
-    height: 125px; 
-}
-
-div.img:hover {
-    border: 4px solid red;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-.image-wrapper {
     position: relative;
-    width: 250px;
-    float: left;
-    
 }
-.image-wrapper p {
-    position: absolute;
-    bottom: 25px;
-    padding: 10px;
-    border: 1px solid #FFF;
-    width: 160px;
-    color: #FFF;
+.portfolio-image {
+    width: 250px;
+    height: 250px;
+    padding: 15px 15px;
+}
+h3 {
+    
+    font-size: 14px;
+    color: white;
+    background-color: #69918E;
     text-align: center;
-    background-color: #4aaaa5;
-    margin: 10px;
-    float: left; /* dunno */
+    position: absolute;
+    width: 220px;
+    padding: 10px;
+    top: 190px;
+    left: 15px;
 }
 
 #connect-with {
@@ -166,7 +160,7 @@ div.img img {
     color: #4aaaa5;
     width: 270px;
     height: 150px;
-    margin-top: 10px;
+    margin-top: 36px;
     padding: 20px;
     margin-right: 125px;
     background-color: white;
