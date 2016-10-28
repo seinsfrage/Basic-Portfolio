@@ -3,9 +3,10 @@
 }
 
 body {
-    background-image: url("greyzz.png");
+    background-image: url("binding_light.png");
     margin: 0 auto;
     width: 1280px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -16,13 +17,14 @@ header {
 }
 
 #name {
-    width: 160px;
+    width: 165px;
     height: 75px;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
     padding: 20px;
     font-size: 22px;
+    font-weight: bold;
     margin-left: 150px;
     float: left;
 }
@@ -30,7 +32,7 @@ header {
 #header-nav {
     
     display: block;
-    margin-right: 193px;
+    margin-right: 177px;
     font-size: 110%;
     line-height: 4em;
     word-spacing: 3px;
@@ -80,6 +82,83 @@ a:active {
     font-size: 90%;
     font-weight: normal;
     line-height: 1.35em
+}
+
+#connect-with {
+    font-size: 125%;
+    color: #4aaaa5;
+    width: 270px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-right: 125px;
+    background-color: white;
+    text-align: center;
+    float: right;
+}
+form {
+    width: 625px;
+    height: 520px;
+   background-color: white;
+    padding: 35px;
+    float: left;
+}
+
+#name-color {
+    color: #4aaaa5;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+}
+
+#portfolio {
+    width: 650px;
+    height: 580px;
+    background-color: white;
+    padding: 40px 50px 40px 70px;
+    float:left;
+}
+
+div.img {
+    margin: 15px 30px;
+    border: none;
+    float: left;
+    width: 125px; 
+    height: 125px; 
+}
+
+div.img:hover {
+    border: 4px solid red;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 250px;
+    float: left;
+    
+}
+.image-wrapper p {
+    position: absolute;
+    bottom: 25px;
+    padding: 10px;
+    border: 1px solid #FFF;
+    width: 160px;
+    color: #FFF;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin: 10px;
+    float: left; /* dunno */
 }
 
 #connect-with {
